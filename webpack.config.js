@@ -16,6 +16,7 @@ module.exports = {
     inline: true,
     port: 7700,
     historyApiFallback: true,
+    stats: 'errors-only',
   },
   resolve: {
     extensions: ['', '.js', '.jsx'],
